@@ -4,7 +4,7 @@ let guestDigit0 = document.getElementById("guestDigit")
 
 
 let countHome = 0;
-let conutGuest = 0;
+let countGuest = 0;
 
 // home score
 
@@ -26,15 +26,15 @@ function homeThree(){
 
 //guest score
 function guestOne (){
-     countHome += 1;
-    homeDigit0.textContent = countHome
+     countGuest += 1;
+    guestDigit0.textContent = countGuest
 }
 function guestTwo (){
-     countHome += 2;
-    homeDigit0.textContent = countHome
+     countGuest += 2;
+    guestDigit0.textContent = countGuest
 }
 
 function guestThree (){
-     countHome += 3;
-    homeDigit0.textContent = countHome
+     countGuest += 3;
+    guestDigit0.textContent = countGuest
 }
